@@ -1,0 +1,51 @@
+<keymap>
+  <global>
+    <joystick name="PLAYSTATION(R)3 Controller">
+      <altname>PS3 Controller</altname>
+      <altname>Sony PLAYSTATION(R)3 Controller</altname>
+      <button id="15">Select</button>
+      <button id="14">Back</button>
+      <button id="16">ContextMenu</button>
+      <button id="13">FullScreen</button>
+      <button id="11">Queue</button>
+      <button id="12">Playlist</button>
+      <button id="1">PreviousMenu</button>
+      <button id="4">ActivateWindow(Home)</button>
+      <button id="17">ActivateWindow(Home)</button>
+      <button id="2">ActivateWindow(ShutdownMenu)</button>
+      <button id="3">ActivateWindow(PlayerControls)</button>
+      <axis limit="+1" id="3">VolumeUp</axis>
+      <axis limit="-1" id="3">VolumeDown</axis>
+      <axis limit="+1" id="4">VolumeDown</axis>
+      <axis limit="-1" id="4">VolumeUp</axis>
+      <button id="5">Up</button>
+      <button id="7">Down</button>
+      <button id="8">Left</button>
+      <button id="6">Right</button>
+    </joystick>
+  </global>
+
+  <FullscreenVideo>
+    <joystick name="PLAYSTATION(R)3 Controller">
+      <altname>PS3 Controller</altname>
+      <altname>Sony PLAYSTATION(R)3 Controller</altname>
+      <button id="15">Pause</button>
+      <button id="14">Stop</button>
+      <button id="16">OSD</button>
+      <button id="11">AspectRatio</button>
+      <button id="12">ShowSubtitles</button>
+      <button id="1">Seek(-7)</button><!-- Replaces smallstepback -->
+      <button id="4">Info</button>
+      <button id="17">ActivateWindow(Home)</button>
+      <button id="2">ActivateWindow(ShutdownMenu)</button>
+      <button id="3">AudioNextLanguage</button>
+      <button id="9">Rewind</button>
+      <button id="10">FastForward</button>
+      <button id="5">VolumeUp</button>
+      <button id="7">VolumeDown</button>
+      <button id="8">StepBack</button>
+      <button id="6">StepForward</button>
+    </joystick>
+  </FullscreenVideo>
+
+  </keymap>
